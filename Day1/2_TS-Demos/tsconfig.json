@@ -2,7 +2,15 @@
     "compilerOptions": {
         "module": "None",
         "target": "ES5",
-        "outDir": "output"
+        "outDir": "output",
+        "noEmitOnError": true,
+        "removeComments": true,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "lib": [
+            "DOM",
+            "ES2015"
+        ]
     },
     "exclude": [
         "js-demos"

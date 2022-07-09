@@ -1,4 +1,5 @@
-var Program = /** @class */ (function () {
+"use strict";
+var Program = (function () {
     function Program() {
     }
     Program.main = function (arg) {
