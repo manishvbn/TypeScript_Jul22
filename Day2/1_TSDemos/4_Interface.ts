@@ -120,32 +120,32 @@
 
 // --------------------------------------------------------- Type Alias and Interface Usage
 
-interface ICustomer {
-    doShopping(): string;
-}
+// interface ICustomer {
+//     doShopping(): string;
+// }
 
-interface IEmployee {
-    doWork(): string;
-}
+// interface IEmployee {
+//     doWork(): string;
+// }
 
-// Union (TypeGuards)
-// var person1: ICustomer | IEmployee;
+// // Union (TypeGuards)
+// // var person1: ICustomer | IEmployee;
 
-type ICustOrEmpl = ICustomer | IEmployee;
-var person1: ICustOrEmpl = {
-    doShopping(): string {
-        return "Shopping Online";
-    }
-}
+// type ICustOrEmpl = ICustomer | IEmployee;
+// var person1: ICustOrEmpl = {
+//     doShopping(): string {
+//         return "Shopping Online";
+//     }
+// }
 
-// Intersection
-type ICustAndIEmpl = ICustomer & IEmployee;
-var person2: ICustAndIEmpl = {
-    doShopping(): string {
-        return "Shopping Online";
-    },
+// // Intersection
+// type ICustAndIEmpl = ICustomer & IEmployee;
+// var person2: ICustAndIEmpl = {
+//     doShopping(): string {
+//         return "Shopping Online";
+//     },
 
-    doWork(): string {
-        return "Learning TypeScript";
-    }
-}
+//     doWork(): string {
+//         return "Learning TypeScript";
+//     }
+// }
