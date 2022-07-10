@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
-        "module": "None",
+        "module": "CommonJS",
+        "moduleResolution": "node",
         "target": "ES5",
         "outDir": "output",
         "noEmitOnError": true,
