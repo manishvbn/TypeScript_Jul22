@@ -167,3 +167,9 @@ class MyPerson {
 
 var p = new MyPerson("Manish");
 console.log(JSON.stringify(p));
+
+// Angular
+// Class Decorator - @Component(), @NgModule(), @Injectable()
+// Method Decorator - @HostListener()
+// Parameter Decorator - @Inject()
+// Property Decorator - @Input(), @Output()
