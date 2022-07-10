@@ -133,37 +133,37 @@
 // console.log(p2.doShopping());
 
 // --------------------------------------------------------- Interface can extend from class(es)
-class Control {
-    get ControlId(): number {
-        return 10;
-    }
+// class Control {
+//     get ControlId(): number {
+//         return 10;
+//     }
 
-    focus(): string {
-        return "The control is in focus...";
-    }
-}
+//     focus(): string {
+//         return "The control is in focus...";
+//     }
+// }
 
-class SelectableControl {
-    select(): string {
-        return "The control is selected...";
-    }
-}
+// class SelectableControl {
+//     select(): string {
+//         return "The control is selected...";
+//     }
+// }
 
-// When an interface extends a class, it extends only the class members but not 
-// their implementation because interfaces don’t contain implementations.
-interface ISelectableControls extends Control, SelectableControl { }
+// // When an interface extends a class, it extends only the class members but not 
+// // their implementation because interfaces don’t contain implementations.
+// interface ISelectableControls extends Control, SelectableControl { }
 
-// Button Class have to re-implement all the methods
-class Button implements ISelectableControls {
-    get ControlId(): number {
-        throw new Error("Method not implemented.");
-    }
+// // Button Class have to re-implement all the methods
+// class Button implements ISelectableControls {
+//     get ControlId(): number {
+//         throw new Error("Method not implemented.");
+//     }
 
-    focus(): string {
-        throw new Error("Method not implemented.");
-    }
+//     focus(): string {
+//         throw new Error("Method not implemented.");
+//     }
 
-    select(): string {
-        throw new Error("Method not implemented.");
-    }
-}
+//     select(): string {
+//         throw new Error("Method not implemented.");
+//     }
+// }
