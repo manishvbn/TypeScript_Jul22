@@ -37,3 +37,8 @@ function Open(mode: Mode) {
 Open(Mode.Read);
 Open(Mode.Write);
 Open(Mode.ReadWrite);
+
+
+function f1(x:number) {
+
+}
