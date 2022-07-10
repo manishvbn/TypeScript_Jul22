@@ -51,3 +51,4 @@ var MyPerson = (function () {
 }());
 var p = new MyPerson("Manish");
 console.log(JSON.stringify(p));
+//# sourceMappingURL=11_Decorators.js.map

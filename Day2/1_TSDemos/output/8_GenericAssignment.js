@@ -27,3 +27,4 @@ var factory = (function () {
 console.log(factory.getEmployee(ProjectManager));
 console.log(factory.getEmployee(Developer));
 console.log(factory.getEmployee(Tester));
+//# sourceMappingURL=8_GenericAssignment.js.map

@@ -48,3 +48,4 @@ var FourWheeler = (function (_super) {
 var v = new FourWheeler(1, "Ford", "Mustang");
 console.log(v.start());
 console.log(v.move());
+//# sourceMappingURL=12_Inheritance.js.map

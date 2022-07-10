@@ -10,3 +10,4 @@ dataRow = [1, "Manish"];
 function insert(data) {
 }
 insert([1, "Manish"]);
+//# sourceMappingURL=2_Tuple.js.map

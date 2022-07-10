@@ -44,3 +44,4 @@ var a2 = new BankAccount(2, "Abhijeet");
 console.log("\nBank Name: " + a2.BankName);
 console.log("Account Number: " + a2.AccountNumber);
 console.log("Account Holder Name: " + a2.AccountHolderName);
+//# sourceMappingURL=5_Class.js.map

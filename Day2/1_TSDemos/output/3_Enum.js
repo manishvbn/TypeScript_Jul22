@@ -13,3 +13,4 @@ Open(Mode.Write);
 Open(Mode.ReadWrite);
 function f1(x) {
 }
+//# sourceMappingURL=3_Enum.js.map
