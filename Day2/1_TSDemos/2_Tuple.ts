@@ -20,9 +20,10 @@ dataRow = [1, "Manish"];
 //     // Code to insert the data as row of a table
 // }
 
+// insert(["Manish", 1, "Pune", 411021]);
+
 function insert(data: [number, string]) {
     // Code to insert the data as row of a table
 }
 
-insert(["Manish", 1, "Pune", 411021]);
 insert([1, "Manish"]);
